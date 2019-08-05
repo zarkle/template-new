@@ -1,6 +1,41 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-h1 {
+
+h1, h2 {
   text-align: center;
+}
+
+#navBar {
+  display: block;
+  height: 90px;
+  padding: 30px;
+}
+
+button {
+  width: 167px;
+  height: 50px;
+  background-color: #7dc855;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+#signupButton {
+  float: right;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+
+.threeColumns:after {
+  content: "";
+  display: table;
+  clear: both;
 }
