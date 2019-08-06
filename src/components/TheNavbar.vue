@@ -1,5 +1,5 @@
 <template>
-  <div id="navBar">
+  <div>
     <img src="https://via.placeholder.com/160x46?text=logo">
     <button id="signupButton">Sign Up</button>
   </div>
@@ -7,7 +7,7 @@
 
 <script>
   export default {
-    name: "NavBar",
+    name: "TheNavbar",
     data() {
       return {
       title: 'This is the Title',
